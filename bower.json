@@ -1,0 +1,23 @@
+{
+  "name": "alissa-homepage",
+  "description": "Alissa's homepage",
+  "main": "gulpfile.js",
+  "authors": [
+    "ataylor <ataylor@hirezstudios.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/alissa-taylor/homepage",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "~6.0.6"
+  },
+  "devDependencies": {
+  }
+}
