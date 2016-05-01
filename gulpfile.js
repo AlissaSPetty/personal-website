@@ -17,8 +17,8 @@ var tasklist = require('gulp-task-list')(gulp);
 var wordpressRoot = ''; // you will need to set up a root directory for your wordpress installation and pass it as an argument to the serve task
 // change these values to point to the custom theme
 var bases = {
- dev:  'themes-dev/paladins-v2/',
- prod: 'themes-prod/paladins-v2/',
+ dev:  'themes-dev/alissa/',
+ prod: 'themes-prod/alissa/',
 };
 var paths = {
   images : 'images/',
