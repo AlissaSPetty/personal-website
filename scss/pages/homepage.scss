@@ -29,10 +29,31 @@
       text-align: center;
       width: 100%;
       height: auto;
+      font-size: 2.5rem;
+      transition: 2s ease-in-out;
       a {
         text-decoration: none;
         i {
           color: white;
+          padding-right: 4rem;
+          .linkedin {
+            &:hover {
+              color: #007bb6;
+            }
+          }
+          .github {
+            &:hover {
+              color: #171516;
+            }
+          }
+          .facebook {
+            &:hover {
+              color: #3b5998;
+            }
+          }
+          &:last-of-type {
+            padding-right: 4rem;
+          }
         }
       }
     }

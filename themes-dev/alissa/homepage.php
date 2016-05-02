@@ -15,9 +15,9 @@
     <div class="underline"></div>
     <p>Hi my name is Alissa Taylor, I am a 25 year old Web Developer based in Atlanta, GA. I currently work at a video game company, but I am avaliable for freelance work. </p>
     <div class="social-media">
-      <a href=""><i class="ion-social-linkedin"></i></a>
-      <a href=""><i class="ion-social-github"></i></a>
-      <a href=""><i class="ion-social-facebook"></i></a>
+      <a href=""><i class="ion-social-linkedin linkedin"></i></a>
+      <a href=""><i class="ion-social-github github"></i></a>
+      <a href=""><i class="ion-social-facebook facebook"></i></a>
     </div>
   </div>
 </div>
