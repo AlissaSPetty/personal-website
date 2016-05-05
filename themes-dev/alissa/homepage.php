@@ -10,7 +10,18 @@
 
 
 <div class="homepage">
-  <div class="header" style="background:url(<?php echo get_stylesheet_directory_uri().'/images/header-bg.jpg' ?>); background-size: cover; height: 50vh; width: auto">
+  <div class="nav">
+    <div class="logo">
+      <p>Alissa Taylor</p>
+    </div>
+    <ul>
+      <li>About</li>
+      <li>Skills</li>
+      <li>My Work</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+  <div class="header" style="background:url(<?php echo get_stylesheet_directory_uri().'/images/header-bg.jpg' ?>); background-size: cover; height: 60vh; width: auto">
     <h1>Web Developer</h1>
     <div class="underline"></div>
     <p>Hi my name is Alissa Taylor, I am a 25 year old Web Developer based in Atlanta, GA. I currently work at a video game company, but I am avaliable for freelance work. </p>

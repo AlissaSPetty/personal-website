@@ -1,8 +1,22 @@
-
 .homepage {
+  .nav {
+    p {
+      font-family: 'Indie Flower',cursive;
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      left: 2rem;
+      color: #fff;
+      font-size: 2rem;
+      margin: 0;
+    }
+  }
   .header {
-    width: 50vh;
     color: white;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
     h1 {
       text-align: center;
       padding-top: 5rem;
@@ -38,17 +52,17 @@
           padding-right: 4rem;
           .linkedin {
             &:hover {
-              color: #007bb6;
+              color: #007bb6 !important;
             }
           }
           .github {
             &:hover {
-              color: #171516;
+              color: #171516 !important;
             }
           }
           .facebook {
             &:hover {
-              color: #3b5998;
+              color: #3b5998 !important;
             }
           }
           &:last-of-type {
