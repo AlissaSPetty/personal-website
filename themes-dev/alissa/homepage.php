@@ -122,6 +122,7 @@
     </div>
   </div>
   <a id="contact"></a>
+  <h1>Say Hello!</h1>
   <h5>I would love to hear from you! Fill out the form below for more information about freelance projects, or just to say hello!</h5>
   <div class="contact">
     <div class="form">

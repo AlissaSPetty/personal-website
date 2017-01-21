@@ -17,6 +17,8 @@ body {
   }
   .nav-container {
     background: #fa715b;
+    position: fixed;
+    z-index: 999;
     .logo {
       p {
         font-family: 'Indie Flower',cursive;
@@ -71,7 +73,7 @@ body {
     }
     .underline{
       position: absolute;
-      top: 160px;
+      top: 210px;
       left: 35%;
       width: 30%;
       border-bottom: 3px solid #fff;
@@ -195,6 +197,13 @@ body {
         }
       }
     }
+  }
+  h1 {
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px 0;
   }
   h5 {
     color: white;
