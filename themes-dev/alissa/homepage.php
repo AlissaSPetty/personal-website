@@ -4,7 +4,6 @@
   <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/css/custom.min.css' ?>" />
   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
   <script type="text/javascript" href="<?php echo get_stylesheet_directory_uri().'/js/script.js' ?>"></script>
-  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri()."/css/foundation.css" ?>"/>
 </head>
   <script src="<?php echo get_stylesheet_directory_uri()."/js/vendor/jquery.js" ?>"></script>
   <script src="<?php echo get_stylesheet_directory_uri()."/js/vendor/what-input.js"?>"></script>
@@ -31,16 +30,16 @@
     <div class="underline"></div>
     <p class="small-12 columns">Hi my name is Alissa Taylor, I am a 26 year old Web Developer based in Atlanta, GA. I am actively taking new clients for freelance projects. </p>
     <div class="social-media">
-      <a href=""><i class="ion-social-linkedin linkedin"></i></a>
-      <a href=""><i class="ion-social-github github"></i></a>
-      <a href=""><i class="ion-social-facebook facebook"></i></a>
+      <a href="https://www.linkedin.com/in/alissataylor"><i class="ion-social-linkedin linkedin"></i></a>
+      <a href="https://github.com/alissa-taylor"><i class="ion-social-github github"></i></a>
+      <a href="https://www.facebook.com/alissa.taylor.23"><i class="ion-social-facebook facebook"></i></a>
     </div>
   </div>
   <a id="skills"></a>
   <a id="work"></a>
   <div class="projects-container row fullWidth">
     <h1 class="projects">Projects</h1>
-    <div class="p1 small-12 medium-3 columns">
+    <div class="p1 small-6 medium-3 columns">
       <a href="http://www.smiterivals.com">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/www_smiterivals_com.jpg" alt="SMITE Rivals" />
         <div class="about">
@@ -50,7 +49,7 @@
         </div>
       </a>
     </div>
-    <div class="p2 small-12 medium-3 columns">
+    <div class="p2 small-6 medium-3 columns">
       <a href="http://www.smitegame.com/celtic/">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Path_of_the_Phantom_Queen___SMITE.jpg" alt="SMITE Celtic Event" />
         <div class="about">
@@ -60,7 +59,7 @@
         </div>
       </a>
     </div>
-    <div class="p3 small-12 medium-3 columns">
+    <div class="p3 small-6 medium-3 columns">
       <a href="http://www.smitegame.com/fafnirs-winter-wonderland/">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Fafnir’s_Winter_Wonderland___SMITE.jpg" alt="Fafnir's Winter Wonderland" />
         <div class="about">
@@ -70,7 +69,7 @@
         </div>
       </a>
     </div>
-    <div class="p4 small-12 medium-3 columns">
+    <div class="p4 small-6 medium-3 columns">
       <a href="http://www.hirezexpo.com/">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Hi-Rez_Expo___2017.jpg" alt="2017 Hi-Rez Expo" />
         <div class="about">
@@ -80,7 +79,9 @@
         </div>
       </a>
     </div>
-    <div class="p5 small-12 medium-3 columns">
+  </div>
+  <div class="projects-container row fullWidth">
+    <div class="p5 small-6 medium-3 columns">
       <a href="https://www.smitegame.com/midseason-2016/">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Midseason_Update___SMITE.jpg" alt="SMITE Season 3 Update" />
         <div class="about">
@@ -90,7 +91,7 @@
         </div>
       </a>
     </div>
-    <div class="p6 small-12 medium-3 columns">
+    <div class="p6 small-6 medium-3 columns">
       <a href="http://www.paladins.com">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Paladins.jpg" alt="Paladins" />
         <div class="about">
@@ -100,7 +101,7 @@
         </div>
       </a>
     </div>
-    <div class="p7 small-12 medium-3 columns">
+    <div class="p7 small-6 medium-3 columns">
       <a href="http://www.smitegame.com/promo/god-reveal/sol/">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/SMITE_-_Sol__Goddess_of_the_Sun_🔊.jpg" alt="Sol God Reveal" />
         <div class="about">
@@ -110,7 +111,7 @@
         </div>
       </a>
     </div>
-    <div class="p8 small-12 medium-3 columns">
+    <div class="p8 small-6 medium-3 columns">
       <a href="http://www.tribesuniverse.com/">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Tribes_Universe.jpg" alt="Tribes Universe" />
         <div class="about">
@@ -128,5 +129,8 @@
     <div class="form">
       <?php echo do_shortcode('[contact-form-7 id="60" title="Contact form"]') ?>
     </div>
+  </div>
+  <div class="footer">
+    <p>Alissa Taylor &#169; 2017</p>
   </div>
 </div>
