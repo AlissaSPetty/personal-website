@@ -156,9 +156,6 @@ body {
   #Skill-HTML {
       width: 100%;
       animation: Animate-HTML 4s;
-      -webkit-animation: Animate-HTML 4s;
-      -moz-animation: Animate-HTML 4s;
-      -o-animation: Animate-HTML 4s;
       height: 50px;
       position: absolute;
       background-color: #ea8564;
@@ -174,7 +171,7 @@ body {
       width: 90%;
       height: 50px;
       position: absolute;
-      background-color: #55a69f;
+      background-color: #5A69A6;
   }
   @keyframes Animate-CSS {
       from {
@@ -249,13 +246,10 @@ body {
       width: 25%}
   }#Skill-PHP {
       animation: Animate-PHP 4s;
-      -webkit-animation: Animate-PHP 4s;
-      -moz-animation: Animate-PHP 4s;
-      -o-animation: Animate-PHP 4s;
       width: 60%;
       height: 50px;
       position: absolute;
-      background-color: #5A69A6;
+      background-color: #f4a95b;
   }
   @keyframes Animate-PHP {
       from {
@@ -263,12 +257,6 @@ body {
   }
   to {
       width: 60%}
-  }@-o-keyframes Animate-PHP {
-      from {
-      width: 10px;
-  }
-  to {
-      width: 50%}
   }#Skill-SQL {
       animation: Animate-SQL 4s;
       width: 30%;
