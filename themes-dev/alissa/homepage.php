@@ -24,6 +24,7 @@
       <li class="small-2 columns"><a href="#contact">Contact</a></li>
     </ul>
   </div>
+  <div class="divider"></div>
   <a id="about"></a>
   <div class="header row fullWidth" style="background:url(<?php echo get_stylesheet_directory_uri().'/images/header-bg.jpg' ?>); background-size: cover; width: auto">
     <h1>Web Developer</h1>
@@ -35,7 +36,69 @@
       <a href="https://www.facebook.com/alissa.taylor.23"><i class="ion-social-facebook facebook"></i></a>
     </div>
   </div>
+  <div class="divider"></div>
   <a id="skills"></a>
+  <div class="skills">
+    <h1>My Skills</h1>
+      <div id="SkillBox">
+      <div class="SkillBar">
+        <div id="Skill-HTML">
+          <span class="Skill-Area ">HTML</span>
+          <span class="PercentText ">100%</span>
+        </div>
+      </div>
+      <div class="SkillBar">
+        <div id="Skill-CSS">
+          <span class="Skill-Area ">CSS/CSS3</span>
+          <span class="PercentText ">90%</span>
+        </div>
+      </div>
+      <div class="SkillBar">
+        <div id="Skill-jQuery">
+          <span class="Skill-Area ">jQuery</span>
+          <span class="PercentText ">60%</span>
+        </div>
+      </div>
+      <div class="SkillBar">
+        <div id="Skill-JS">
+          <span class="Skill-Area ">Javascript</span>
+          <span class="PercentText ">50%</span>
+        </div>
+      </div>
+      <div class="SkillBar">
+        <div id="Skill-Wordpress">
+          <span class="Skill-Area ">Wordpress </span>
+          <span class="PercentText ">85%</span>
+        </div>
+      </div>
+        <div class="SkillBar">
+        <div id="Skill-JSON">
+          <span class="Skill-Area ">JSON</span>
+          <span class="PercentText ">30%</span>
+        </div>
+      </div>
+        <div class="SkillBar">
+        <div id="Skill-React">
+          <span class="Skill-Area ">React </span>
+          <span class="PercentText ">25%</span>
+        </div>
+      </div>
+        <div class="SkillBar">
+        <div id="Skill-PHP">
+          <span class="Skill-Area ">PHP </span>
+          <span class="PercentText ">60%</span>
+        </div>
+      </div>
+        <div class="SkillBar">
+        <div id="Skill-SQL">
+          <span class="Skill-Area ">SQL </span>
+          <span class="PercentText ">30%</span>
+        </div>
+      </div>
+    </div>
+    </center>
+  </div>
+  <div class="divider"></div>
   <a id="work"></a>
   <div class="projects-container row fullWidth">
     <h1 class="projects">Projects</h1>
@@ -45,7 +108,6 @@
         <div class="about">
           <p class="title">SMITE Rivals</p>
           <p class="date">January 2017</p>
-          <p class="hover">http://www.smiterivals.com</p>
         </div>
       </a>
     </div>
@@ -55,7 +117,6 @@
         <div class="about">
           <p class="title">SMITE Celtic Event</p>
           <p class="date">December 2016</p>
-          <p class="hover">http://www.smitegame.com/celtic/</p>
         </div>
       </a>
     </div>
@@ -65,7 +126,6 @@
         <div class="about">
           <p class="title">Fafnir's Winter Wonderland</p>
           <p class="date">December 2016</p>
-          <p class="hover">http://www.smitegame.com/fafnirs-winter-wonderland/</p>
         </div>
       </a>
     </div>
@@ -75,7 +135,6 @@
         <div class="about">
           <p class="title">Hi-Rez Expo</p>
           <p class="date">November 2016</p>
-          <p class="hover">http://www.hirezexpo.com</p>
         </div>
       </a>
     </div>
@@ -87,7 +146,6 @@
         <div class="about">
           <p class="title">SMITE Season 3 Update</p>
           <p class="date">June 2016</p>
-          <p class="hover">https://www.smitegame.com/midseason-2016/</p>
         </div>
       </a>
     </div>
@@ -97,7 +155,6 @@
         <div class="about">
           <p class="title">Paladins</p>
           <p class="date">January 2016</p>
-          <p class="hover">http://www.paladins.com</p>
         </div>
       </a>
     </div>
@@ -107,7 +164,6 @@
         <div class="about">
           <p class="title">Sol God Reveal</p>
           <p class="date">August 2015</p>
-          <p class="hover">http://www.smitegame.com/promo/god-reveal/sol/</p>
         </div>
       </a>
     </div>
@@ -117,11 +173,11 @@
         <div class="about">
           <p class="title">Tribes Universe</p>
           <p class="date">June 2015</p>
-          <p class="hover">http://www.tribesuniverse.com/</p>
         </div>
       </a>
     </div>
   </div>
+  <div class="divider"></div>
   <a id="contact"></a>
   <h1>Say Hello!</h1>
   <h5>I would love to hear from you! Fill out the form below for more information about freelance projects, or just to say hello!</h5>
