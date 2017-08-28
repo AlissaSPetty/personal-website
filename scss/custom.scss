@@ -1,10 +1,13 @@
 /**
 * Custom styles for the front-end facing theme
 **/
+
 // set the charset appropriately
 @charset "UTF-8";
-
-@import "pages/homepage";
 @import "partials/fonts";
 @import "../bower_components/foundation/scss/foundation";
 @import "../bower_components/foundation/scss/normalize";
+
+//Pages
+@import "pages/homepage";
+@import "pages/wedding";
